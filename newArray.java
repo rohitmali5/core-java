@@ -29,7 +29,9 @@ public class newArray{
 	System.out.println(alphabates[2]);
 	
 	char[] name = {'a','k','a','s','h'};
-	System.out.println(name[4]);
+	name[2] = 'p';
+	name[3] = 'm';
+	System.out.println(name[3]);
 	
 	float[] cgpaOfStudent = new float[16];
 	cgpaOfStudent[14] = 8.6f;
@@ -43,7 +45,15 @@ public class newArray{
 		System.out.println(roomTemperature[1]);
 	}
 	int[] rollNo = new int[10];
-	rollNo[5] = 10;
+	rollNo[0] = 10;
+	rollNo[1] = 11;
+	rollNo[2] = 12;
+	rollNo[3] = 13;
+	rollNo[4] = 14;
+	rollNo[5] = 15;
+	rollNo[6] = 16;
+	
+	
 	for(int i=0;i<10;i++){
 		System.out.println(rollNo[i]);
 	}
