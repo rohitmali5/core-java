@@ -46,18 +46,8 @@ public class School{
 	
 	School school4 = new School(14,"HSR","Sanket",52,29);
 	System.out.println("Object School4 is Running");
-	
-	
-	
-	
-	
-		
+
 	}
-	
-	
-	
-	
-	
-	
+
 }
 
